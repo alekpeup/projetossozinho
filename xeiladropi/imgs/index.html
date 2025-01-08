@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="/styles/global.css">
+</head>
+<body>
+      <div class="container boxs">
+            <div id="cadastramento" class="box-data boxs">
+                <form action="" class="boxs">
+                  <h1>Your datas</h1>
+                     <div class="primeirosDados">
+                           <input type="email" name="email" id="email" placeholder="Your email please">
+                           <input type="password" name="password" id="password" placeholder="Your password please">
+                     </div>
+
+                     <button type="button" onclick="sumir()">Enviar</button>
+                </form>
+            </div>
+
+            <div id="revisando-dados" class="box-data">
+                  <p>Clique no botão abaixo para revisar seus dados, se estiver tudo certo clique em confirmar</p>
+                  <div class="revisarBtn-confirmBtn">
+                        <button type="button" onclick="revisar()">Revisar</button>
+                        <p id="showDatasEmail"></p>
+                        <p id="showDatasPassword"></p>
+                        <a href="" id="confirm">Confirm</a>
+                  </div>
+            </div>
+      </div>
+
+
+   <script src="index.js"></script>
+</body>
+</html>
