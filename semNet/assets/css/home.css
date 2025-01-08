@@ -1,0 +1,113 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body {
+   height: 100vh;
+}
+
+.container {
+   background-color: gray;
+   height: 100%;
+   margin: 0 80px;
+}
+
+header {
+   position: relative;
+   padding: 32px 0;
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   /* gap: 20.438rem; */
+}
+
+ /* .logo, nav, div {
+   border: 2px solid;
+ } */
+
+header > nav {
+   display: flex;
+   align-items: center;
+   gap: 56px;
+   font-family: 'Inter', sans-serif;
+   font-size: 1.25em;
+   font-weight: normal;
+}
+.productsWrapBox {
+   display: none;
+   position: absolute;
+   width: 200px;
+   height: 400px;
+   background-color: rgba(51, 51, 51, 0.985);
+   left: 40px;
+   top: 100%;
+   border-radius: 10px;
+}
+
+.productsWrapBox > ul { 
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 100%;
+}
+.productsWrapBox > ul > li { 
+   display: block;
+   width: 100%;
+   background-color: #140d0d;
+   text-align: center;
+   color: #fff;
+   padding: 10px;
+}
+
+
+
+
+
+#sacolinha {
+   display: none;
+   position: absolute;
+   width: 200px;
+   height: 400px;
+   background-color: rgba(51, 51, 51, 0.985);
+   right: 8px;
+   top: 100%;
+   border-radius: 10px;
+}
+
+#sacolinha > ul {
+   display: flex;
+   flex-direction: column;
+   justify-content: space-evenly;
+   align-items: center;
+   height: 100%;
+}
+
+#sacolinha > ul > li { 
+   display: block;
+   width: 100%;
+   background-color: #140d0d;
+   text-align: center;
+   color: #fff;
+   padding: 10px;
+}
+
+.icons-Search-Arquive {
+   display: flex;
+   align-items: center;
+   gap: 16px;
+}
+
+.icons-Search-Arquive > span {
+   cursor: pointer;
+}
+
+
+/* main parte */
+
+main {
+   width: 100%;
+   height: 100%;
+}
+
+
+
