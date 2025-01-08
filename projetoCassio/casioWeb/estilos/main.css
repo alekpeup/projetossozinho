@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,500;0,800;1,700&family=Poppins&display=swap');
+
+* { 
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body { 
+    height: 100vh;
+    background: fixed;
+    background-color: #b3b3b3;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 4px 10px #252725;
+    background-attachment: fixed;
+    width: 100%;
+}
+
+.div-nav-um__header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #fff;
+    
+}
+
+.logo-navUm {
+    margin-left: 18px;
+    padding: 8px;
+    /* border: 1px solid; */
+}
+
+.logo-navUm h1 {
+    font-size: 2rem;
+    font-family: 'Noto Sans';
+}
+
+.logo-navUm h1 span { 
+    color: #3f4345b6;
+}
+
+.navumcontainer {
+    display: flex;
+    justify-content: flex-end;
+   background-color: white;
+   text-align: center;
+}
+
+.nav__div-nav-um {
+    padding: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 38px;
+    text-align: center;
+} 
+
+.nav__div-nav-um a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #000000;
+    text-decoration: none; 
+    font-size: 1.3rem;
+}
+
+.nav__div-nav-um a:hover {
+    color: rgb(40, 150, 113);
+}
+
+.div-nav-dois__content {
+    display: flex;
+    align-items: center;
+    background-color: #000000;
+    /* border: 1px solid black; */
+}
+
+.div-nav-dois__content > .box {
+    width: 300px;
+    flex: auto;
+}
+
+.nav-menu-times{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 18px;
+    /* border: 2px solid rgb(50, 28, 193); */
+    width: fit-content;
+ }
+    
+.nav-menu-times a {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Poppins';
+    /* border: 2px solid red; */
+    transition: scale .35s;
+}
+
+.nav-menu-times a:hover {
+    scale: 1.03;
+}
+
+.nav-menu-times p {
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    font-size: 17px;
+    font-family: 'Poppins';
+    /* border: 2px solid red; */
+    transition: scale .35s;
+    cursor: pointer;
+}
+
+.nav-menu-times p:hover {
+    scale: 1.03;
+}
+
+        
+.logo { 
+display: flex;
+justify-content: center;
+/* border: 2px solid #888444; */
+}
+
+.div-nav-dois__content .logo img{
+        height: 90px;
+        /* border: 1px solid; */
+}
+
+.search-nav{ 
+    text-align: end;
+    padding-right: 10px;
+    /* border: 1px solid; */
+}
+
+.div-nav-dois__content .search-nav input{
+    border: none;
+    border-radius: 4px;
+    padding: 10px;
+    width: 180px;
+    color: #000;
+    outline: none;
+    font-size: 18px;
+}
+
+main { 
+   width: 100%;
+   display: flex;
+   gap: 10px;
+   justify-content: center;
+}
+
+.destaque {
+    width: 100%;
+    height: 500px;
+}
+
+.banner {
+    background-image: url('../assets/icons-images/cassio.jpeg');
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: cover;
+    background-color: #1861e9;
+    border: 1px solid black;
+    height: 100%;
+    background-attachment: fixed;
+
+
+}
+
+.banner img {
+    height: 180px;
+}
+
+.container { 
+    margin: 10px;
+    width: 350px;
+    height: 500px;
+    background-color: #252725;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 2px 8px 2px #0000006b;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    /* display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin: 10px; */
+}
+
+.imageDuCassio { 
+    height: 100%;
+    background-image: url('../assets/icons-images/cassio.jpeg');
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: cover;
+    border-radius: 8px;
+}
+
+
+.noticiaCasioEButao {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    
+}
+
+/* 
+    arquitetura de informação 
+    - forma de organizar o conteúdo 
+    usabilidade 
+
+
+*/
+
+.container > .noticiaCasioEButao p { 
+    color: #dee6f5;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: left;
+}
+
+.noticiaCasioEButao a { 
+    background-color: #5c6155;
+   color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 19px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    transition: background-color  0.6s, 
+    color 0.7s;
+}
+
+.noticiaCasioEButao a:hover { 
+    background-color: #404e4d;
+    
+    /* color: #1861e9; */
+}
+
+section {
+    padding: 18px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    gap: 10px;
+    flex-wrap: wrap;
+    overflow-y: scroll;
+    overflow-y: hidden; 
+}
+
+
+
+.box-news {
+    
+    flex: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+    background-color: #fff;
+    padding: 8px;
+    width: 350px;
+    border-radius: 6px;
+}
+.box-news a {
+    text-decoration: none;
+}
+.headerzinho { 
+    padding: 15px 0;
+    border-bottom: 1px solid;
+}
+
+.headerzinho a {
+    text-decoration: none;
+    
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    font-size: 26px;
+    text-align: center;
+    font-weight: 600;
+    font-family:Arial, Helvetica, sans-serif
+}
+.box-news a:hover {
+    text-decoration: underline;
+    text-decoration-thickness: 1.3px;
+}
+.newsImage {
+    height: 320px;
+    background-image: url('../assets/icons-images/corinthians-se-reapresentou-nesta-quarta-feira-28941w.jpg');
+    background-size: cover;
+ 
+}
+
+.newsContent {
+    width: 100%;
+}
+.newsContent a {
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    word-spacing: 1px;
+    text-align: justify;
+}
+
+
+#bloco { 
+
+    position: absolute;
+    left: 10%;
+    top: 30%;
+    background-color: #121212;
+    width: 80%;
+    z-index: 1;
+    height: 50%;
+    padding: 15px;
+    border-radius: 38px;
+    color: #Fff;
+}
+

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/style.css">
+    <title>Alexsandro - area</title>
+</head>
+<body>
+    <div class="bg">
+        <header>
+            <h1>Alexsandro</h1>
+            <div class="nav_sets">
+                <nav id="nav-sets-icons">
+                     <a href="#" onclick="sobre()">Sobre</a> 
+                     <div class="icons">
+                        <span><img src="imgs/translate_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt="" ></span> 
+                        <span><img src="imgs/contrast_24dp_E8EAED_FILL0_wght400_GRAD0_opsz24.svg" alt=""></span>
+                     </div>  
+                </nav>
+            </div>
+        </header>
+        <main>
+            <section class="project">
+                <div class="projects-content">
+                    <h2>Projects</h2>
+                    <button type="button" onclick="mostrarProjects()">Mostrar</button>
+                </div>
+
+                <div class="project-btn-clicked" id="projects" hidden>
+                    <div class="project1">1</div>
+                    <div class="project2">2 </div>
+                    <div class="project3">3</div>
+                </div>
+
+            </section>
+                 
+             <section id="sobre">
+                <h2>Sobre</h2>
+                 <div class="sobre-paragraph">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel itaque, similique in unde doloremque cum commodi quidem? Doloremque, nam cupiditate aperiam qui sapiente mollitia necessitatibus quae ut dolor minima! Et.</p>
+                 </div>
+             </section>
+        </main>
+    </div>
+
+
+  <script src="./scripts/port.js"></script>
+</body>
+</html>

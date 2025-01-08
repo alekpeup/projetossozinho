@@ -1,0 +1,52 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body { 
+   height: 100vh;
+}
+
+.wall { 
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   height: 100%;
+   width: 100%;
+   background: linear-gradient(180deg, #2d2c2e, #4f6ed4, #7200FA);
+}
+
+.allUser-main-container { 
+ height: 588px;
+ width: 70%;   
+ background: rgba(255, 255, 255, 0.097);
+backdrop-filter: blur(10px);
+ border: 1px solid;
+ border-radius: 88px;
+
+
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ align-items: center; 
+
+}
+
+.container-user { 
+   height: 100%;
+   
+}
+
+.image-user-container  { 
+
+}
+
+.image-user-container img {
+   height: 180px;
+   border-radius: 48px;
+}
+
+
+
+

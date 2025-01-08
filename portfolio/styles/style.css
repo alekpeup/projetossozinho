@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=SUSE:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 100vw;
+    background-color: rgb(105, 103, 101);
+}
+
+.bg {
+
+    height: 100vh;
+    width: 100%;
+    /* background-image: url("https://cdn.blablacar.com/wp-content/uploads/br/2024/07/31133313/hiroshima.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover; */
+    
+}
+
+header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    background: transparent;
+    /* background-color: rgb(85, 60, 146); */
+    padding: 8px;
+}
+
+header h1 {
+    padding: 5px;
+    font-family: "SUSE", sans-serif;
+    font-size: 4rem;
+    text-transform: uppercase;
+}
+
+.nav_sets {
+    display: flex;
+
+    /* background-color: #893322; */
+    width: 400px;
+    padding: 4px;
+    border: 1px solid;
+}
+
+.nav_sets #nav-sets-icons {
+    display: flex;
+    justify-content: flex-end;
+    gap: 22px;
+    /* background-color: aqua; */
+    width: 100%;
+    height: 100%;
+    border: 1px solid;
+
+}
+
+#nav-sets-icons a {
+    font-size: 24px;
+    text-decoration: none;
+    font-family: "SUSE";
+    font-weight: 500;
+    color: #ffffff;
+    padding: 4px;
+}
+#nav-sets-icons a:hover{
+    scale: 0.95;
+    transform: scaleY(0.88);
+  
+}
+
+#nav-sets-icons .icons{
+    display: flex;
+    gap: 10px;
+}
+
+#nav-sets-icons .icons img {
+    height: 35px;
+    cursor: pointer;
+}
+
+#nav-sets-icons .icons img:hover {
+    scale: 0.88;
+    transition: 0.22s ease;
+}
+
+
+
+/* main */
+
+main {
+    background-color: #9028ff;
+    height: 100%;
+    padding: 10px 0;
+}
+
+.project{ 
+    width: 800px;
+    border: 1px solid;
+    margin: 0 auto;
+    padding: 10px;
+    border-radius: 18px;
+
+}
+
+.project .projects-content{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 4px 10px;
+}
+
+
+.projects-content h2 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 45px;
+}
+
+.projects-content button {
+    padding: 8px;
+    font-size: 20px;
+    border-radius: 20%;
+    border: none;
+    cursor: pointer;
+}
+
+.projects-content button:hover {
+    background-color: #402b57;
+    color:rgb(255, 255, 255);
+    transition: 0.3s ease-in-out;
+}
+
+
+
+#sobre {
+    width: 800px;
+    border: 1px solid;
+    margin: 20px auto;
+    padding: 10px;
+    display: none;
+    border-radius: 18px;
+}
