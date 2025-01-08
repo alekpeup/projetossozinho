@@ -1,0 +1,97 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body 
+{   
+    padding: 10px;
+    display: flex;
+    gap: 30px;
+    background-color: #000000;
+    color: #fff;
+}
+
+.profile-container
+{
+    
+    margin:50% auto;
+    border: 1px solid #77a5a8;
+    width: 350px;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px #02a67859;
+}
+
+
+
+.profile {
+    border-radius: 8px;
+    text-align: center;
+}
+
+.profile h2 {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 36px;
+    padding: 6px 0;
+}
+
+.imagem {
+    margin: 10px;
+    padding: 8px;
+}
+
+.descricao 
+{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    margin: 8px 0;
+    padding: 8px;
+}
+
+.descricao p
+{
+    width: 100%;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+.descricao a
+{
+    width: 100px;
+    border-radius: 8px;
+    padding: 8px;
+    text-align: center;
+    text-decoration: none;
+    color: #e9e8d9;
+    background-color: #7702a8;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 19px;
+}
+
+
+/* hovers */
+
+.profile-container:hover
+{
+    box-shadow:  0 0 40px #313131ce;
+    scale: 1.03;
+}
+
+/* .imagem img:hover
+{
+    box-shadow: 0 0 40px #312e2ece;
+} */
+
+.descricao a:hover 
+{
+    background-color: #46165a;
+    box-shadow: 0 0 40px #312e2ece;
+}
+
+
+
+

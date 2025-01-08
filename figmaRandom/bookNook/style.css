@@ -1,0 +1,65 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+body {
+   height: 100vh;
+}
+
+.bg {
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   padding: 0;
+   color: white;
+   background-color: black;
+  height: 100%;
+   background-image: url('https://png.pngtree.com/thumb_back/fh260/background/20200714/pngtree-modern-double-color-futuristic-neon-background-image_351866.jpg');
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: cover;
+   background-attachment: fixed;
+  position: relative;
+}
+
+header { 
+   padding: 10px;
+   border: 1px solid;
+   position: fixed;
+   top: 0;
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-evenly;
+}
+
+header nav ul {
+   display: flex;
+   gap: 18px;
+   list-style: none; 
+
+}
+
+
+form { 
+   height: 3rem;
+   width: 40rem;
+   border: 1px solid;
+   height: 50%;
+   margin: 0 10px;
+   padding: 15px;
+  
+}
+.conteudo { 
+   background-color: aqua;
+   height: 100%;
+   width: 100%;
+}
+
+footer { 
+   height: 10%;
+   padding: 10px;
+   background-color: red;
+}

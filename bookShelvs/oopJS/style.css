@@ -1,0 +1,35 @@
+body
+{
+    background-color: #123067;
+    color: #ffffff;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1
+{
+    color: hsl(169, 95%, 34%);
+}
+
+.retangulo {
+    width: 200px;
+    height: 60px;
+    border: 2px solid white;
+    margin-bottom: 10px;
+}
+
+.resultados{
+    width: 400px;
+    height: 200px;
+    margin-top: 20px;
+    border-radius: 28px;
+    padding: 10px;
+    border: 1px solid #ffffff;
+}
+
+#area {
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+
+
