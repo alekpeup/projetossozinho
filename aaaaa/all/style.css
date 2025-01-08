@@ -1,0 +1,46 @@
+* { 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+header {
+   width: 100%;
+
+
+   margin: 0;
+   padding: 4px 0;
+
+   background-color: #6666cc;
+   border-bottom: 2.4px solid #4444cc;
+}
+
+.container {
+   
+   width: 80%;
+   
+   /* background-color: #444c44; */
+   margin: 0 auto;
+   padding: 8px;
+   
+}
+
+.container nav ul { 
+   list-style: none;
+   display: flex;
+   gap: 38px;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li a { 
+   text-decoration: none; 
+   color: #fff;
+   font-family: Arial, sans-serif;
+   font-size: 1.2em;
+}
+
+nav ul li a:hover {
+   color: #cff1e8;
+}
+

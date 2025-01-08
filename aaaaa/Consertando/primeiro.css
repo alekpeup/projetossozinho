@@ -1,0 +1,50 @@
+body {
+   background-color: rgb(120, 10, 140);
+
+}
+
+.buttonHome {
+   width: 200px;
+   height: 500px;
+   border: 0;
+   border-radius: 8px;
+   background-color: #4b337f;
+
+
+
+   display: flex; 
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+}
+
+button {
+   width: 110px;
+   padding: 8px;
+   height: 38px;
+   cursor: pointer;
+   background-color: #665691;
+
+   border: 0;
+   border-radius: 6px;
+
+}
+
+button:hover { 
+   background-color: #7b6d9f;
+   border: 1px solid #333333;
+   color: #e0d5e0;
+   transition: 0.5s;
+
+  
+}
+
+
+#testando { 
+   background-color: #333333;
+   color: #ebdcdc;
+   padding: 12px;
+   border-radius: 2px;
+   width: max-content;
+   height: max-content;
+}

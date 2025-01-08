@@ -1,0 +1,92 @@
+* { 
+   margin: 0;
+   padding: 0;
+}
+
+
+header { 
+   background-color: #387ae3;
+   width: 100%;
+   position: fixed;
+   top: 0;
+
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   justify-content: center;
+}
+
+header .nav-container { 
+   padding: 8px;
+   /* border: 1px solid #333333; */
+   margin: 8px auto;
+   border-radius: 5px;
+   background: transparent;
+   backdrop-filter: blur(10px);
+
+   width: 400px;
+   height: 40px;
+
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.nav-container nav ul { 
+   list-style: none;
+   text-align: center;
+}
+
+.nav-container nav ul li { 
+   cursor: pointer;
+   color: #fff;
+   font-family: Arial, sans-serif;
+   font-size: 1.4em;
+   background-color: burlywood;
+   padding: 5px;
+   border-radius: 5px;
+
+}
+
+.nav-container nav ul li:hover {
+   background-color: #caa16b;
+}
+
+
+
+
+
+#container-lista { 
+    width: 104px;
+    height: 160px;
+    border: 2px solid #332222;
+    border-radius: 5px;
+
+    margin: 8% 5% 0 5%; 
+
+
+    display: flex;
+    justify-content: start;
+    background-color: brown;
+}
+
+#listaComida { 
+   background-color: aquamarine;
+   list-style: none;
+   padding: 0 8px 0 8px;
+   border-radius: 3px 5px 5px 3px;
+   position: relative;
+   left: 0;
+   
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   text-align: center;
+}
+
+
+
+#listaComida  li { 
+   font-family: Arial, sans-serif; 
+}
+
