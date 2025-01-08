@@ -1,0 +1,53 @@
+@charset "utf-8";
+
+ :root { 
+   --primaryColor: #FF570A;
+}
+
+* { 
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+
+body {
+   display: flex;
+   height: 100vh;
+}
+
+.container { 
+   
+   width: 100%;
+   background-color: #FF570A;
+   margin:  0 30px;
+}
+
+.container > header {
+   display: flex;
+   justify-content: space-evenly;
+   gap: 20rem;
+   align-items: center;
+   padding: 10px;
+   background-color: #d7591f;
+   border-radius: 20% 30px 10%;
+}
+
+.container > header > nav  { 
+   border: 2px solid black;
+   padding: 10px;
+   text-align: ;
+}
+
+.container > header > nav > ul{
+   list-style: none;
+   display: flex; 
+   gap: 23px;
+
+}
+
+.container > header > nav > ul > li > a { 
+   color: #fff;
+   text-decoration: none;
+   font-family: Arial, Helvetica, sans-serif;
+}
+
