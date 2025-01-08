@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+:root {
+    --green: #3e4d0e;
+    --whitegreen: #aac753;
+    --green2: #5e6e2a;
+}
+
+body {
+    font-family: 'Maven Pro';
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    background-color: var(--whitegreen);
+
+}
+
+img {
+    height: 90px;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    gap: 28px;
+    padding: 8px;
+    font-size: 1.9em;
+
+}
+
+a {
+    color: var(--green)
+}
+
+
+
