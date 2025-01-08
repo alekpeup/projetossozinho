@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Option 1</title>
+   <link rel="stylesheet" href="estilos/option1.css">
+</head>
+<body>
+    <main id="corpo">      
+      <div class="container">    
+         <article id="pop">
+            <img src="imgs/cachorrinhoLULU.jpeg" alt="">
+         </article>
+
+            <h2>Login</h2>
+            <p>insira o seu nome para que possamos te cadastar</p>
+            <div class="dados">
+               <input type="text" placeholder="Insira seu nome">
+               <button id="popStart" onclick="popzin()">Enviar</button>
+                  <span><span>&lAarr;</span><a href="testesJS.html">Voltar</a></span>
+            </div>
+      </div>
+
+    </main>
+
+    <script>
+      function popzin() {
+    
+
+         if (pop.style.display == 'block') {
+            pop.style.display = 'none';
+            window.alert('Você está descadastrado');
+        
+         } else { 
+            pop.style.display = 'block';
+            window.alert('Boa meu amigo, você está cadastrado');
+            corpo.style.backgroundColor = '#333332';
+         }
+
+       
+      };
+    </script>
+</body>
+</html>

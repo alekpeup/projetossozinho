@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Analisar idade do sujeito</title>
+
+      <style>
+            * { 
+                  margin: 0;
+                  padding: 0;
+            }
+
+            body {
+                  height: 100vh;
+                  background: #97975d;
+                  display: flex;
+                  flex-direction: column;
+                  justify-content: center;
+                  align-items: center;
+                  gap: 28px;
+            }
+
+            article {
+                  display: flex;
+                  justify-content: center;
+                  align-items: center;
+                  padding: 10px;
+                  width: 400px;
+                  height: 350px;
+                  border-radius: 10px;
+                  background-color: #033515;
+
+            }
+
+            article > img { 
+                  border-radius: 10px;
+                  width: 100%;
+                  height: 210px;
+            }
+      </style>
+</head>
+<body id="corpo">
+      <h2>Olá meu amigo, vamos analisar a sua idade</h2>
+      <p>Primeiro precisamos que você anote a sua idade no prompt de comando que aparecer já já.</p>
+      <p>Depois vamos analisar se você é realmente maior de 18 anos</p>
+      <p>Se você não for maior que 18 anos, vamos mudar a cor do fundo da página.</p>
+
+
+      <article>
+            <img src="imgs/cachorrinhoLULU.jpeg" alt="Cachorrinho Lulu" id="locals" onclick="showUp()">
+      </article>
+
+      
+      <script>
+            function showUP() { 
+                  document.getElementById('locals').addEventListener('click', function () { 
+                        window.location.href = "http://www.youtube.com";
+                  })
+            }
+
+            document.addEventListener('DOMContentLoaded', function() {
+                  setTimeout(function () {
+                       var idade =prompt("Bom, queremos saber a sua idade, escreve ai!")
+                        if(idade >= 18) {
+                              document.getElementById('corpo').style.backgroundColor = '#383823';
+                        } els { 
+                             setTimeout(function() {
+                              document.getElementById('corpo').style.backgroundColor = 'red'
+                             }, 2000)
+                        };
+                  }, 2000)
+
+            })
+
+            
+
+
+      </script>
+</body>
+</html>
